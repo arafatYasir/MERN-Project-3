@@ -556,6 +556,7 @@ main .shape-container {
     margin-top: 65px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 80px;
 }
 
