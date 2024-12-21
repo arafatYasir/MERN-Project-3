@@ -64,3 +64,95 @@ nav button {
 nav button {
     cursor: pointer;
 }
+
+/* ----Banner Section---- */
+#banner {
+    margin-top: 138px;
+    /* padding-bottom: 660px; */
+}
+
+#banner .banner-wrapper {
+    display: flex;
+    gap: 54px;
+}
+
+#banner .banner-info {
+    position: relative;
+    z-index: 999;
+}
+
+#banner .title {
+    max-width: 503px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+    color: #192252;
+    margin-bottom: 40px;
+}
+
+#banner .description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #848FAC;
+    max-width: 332px;
+    margin-bottom: 40px;
+}
+
+#banner .btn-container {
+    display: flex;
+    gap: 24px;
+}
+
+#banner .btn-container a:first-child {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    background: #6245d5;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 40px;
+    transition: all linear 0.3s;
+}
+
+#banner .btn-container a:first-child:hover {
+    background: #fff;
+    color: #6245d5;
+}
+
+#banner .btn-container a:last-child {
+    color: #192252;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 40px;
+    transition: all linear 0.3s;
+}
+
+#banner .btn-container a:last-child:hover {
+    background: #6245d5;
+    color: #fff;
+}
+
+#banner .banner-image {
+    position: relative;
+    left: 40px;
+    z-index: 999;
+}
+
+#banner .shape1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#banner .shape2 {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
